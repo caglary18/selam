@@ -1,0 +1,113 @@
+ul.bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:black;/*#212F3D*/
+}
+li.bar {
+	float: left;
+}
+li a {
+	font-family:Noto Sans TC;
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+li a:hover {
+	background-color: grey;
+}
+/* buraya kadar olan kısım her sayfada bulunan bar kısmı */
+
+h1{/* this portfolio is fictional kısmı */
+	color:white;
+	text-align: center;
+	font-size:15px;
+	font-style:italic;
+	font-family:Noto Sans TC;
+}
+
+.content1{/* home ve caglarcoding kısmında kullanıldı */
+	margin-left:auto;
+	margin-right:auto;
+	width:40em;
+	text-align:center;
+	font-family: Noto Sans TC;
+	color:white;/*#1C2833*/
+}
+
+.content2{ /* biography kısmında kullanıldı*/
+	margin-left:auto;
+	margin-right:auto;
+	width:40em;
+	text-align:justify;
+	font-family: Noto Sans TC;
+	color:white;/*#1C2833*/
+}
+
+.content3{ /*caglarcoding kısmında*/
+	margin-left:auto;
+	margin-right:auto;
+	width:20em;
+	font-family: Noto Sans TC;
+	color:white;
+	text-align:left;
+	list-style:square;
+}
+
+body{ /*tüm sayfalarda arkaplan */
+	background-image:url(arkaplannn.png);
+
+}
+div{
+	margin-left:auto;
+	margin-right:auto;
+	width:410px;
+
+}
+.image{/*biographydeki fotoğraflar */
+	margin-left:auto;
+	margin-right:auto;
+	width:610px;	
+}
+.skills{/*skillseteki liste elemanları*/
+	font-family:Noto Sans TC;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:40em;
+}
+
+table,th,td{/*skillsteki tablo*/
+	width:100%;
+	border:solid;
+	border-color:#6666ff;
+	color:white;
+}
+td{/*skillsteki tablo*/
+	text-align:center
+}
+summary{/*skillsteki liste elemanları*/
+	color:white;
+}
+
+p a{
+	color:#6666ff;
+	text-decoration:none;
+}
+p a:hover{
+	color:white;
+}
+p a:visited{
+	color:#6666ff;
+	text-decoration:none;
+}
+/*biography ve caglarcodingteki linklerin rengini belirtmek için*/
+.img{
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+}
